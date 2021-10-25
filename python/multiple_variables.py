@@ -12,3 +12,10 @@ print(c)
 print(d)
 print(e)
 print(f)
+
+car = ["BMW", "Mercedes", "Ferrari"]
+x, y, z = car
+
+print(x)
+print(y)
+print(z)

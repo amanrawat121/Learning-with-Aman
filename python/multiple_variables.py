@@ -5,9 +5,10 @@ print(c)
 print(a)
 
 # you can assign one value to multiple operators like
-a=b=c=d=e="orange"
+a=b=c=d=e=f="orange"
 print(a)
 print(b)
 print(c)
 print(d)
 print(e)
+print(f)

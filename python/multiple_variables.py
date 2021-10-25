@@ -13,6 +13,7 @@ print(d)
 print(e)
 print(f)
 
+# following examplle is called unpacking of collection
 car = ["BMW", "Mercedes", "Ferrari"]
 x, y, z = car
 

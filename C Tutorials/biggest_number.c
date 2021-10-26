@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 int main()
 {
     int a, b, c;
@@ -25,6 +26,6 @@ int main()
     {
         printf("All three numbers are equal");
     }
-
+    getch();
     return 0;
 }

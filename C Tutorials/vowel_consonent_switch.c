@@ -44,5 +44,6 @@ int main()
         printf("%c is a Consonant", alpha);
         break;
     }
+    getch();
     return 0;
 }

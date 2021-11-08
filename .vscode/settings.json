@@ -1,4 +1,6 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
-    "editor.fontFamily": "\"Consolas\""
+    "editor.fontSize": 20,
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "Consolas",
 }

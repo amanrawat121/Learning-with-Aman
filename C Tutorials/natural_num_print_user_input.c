@@ -15,3 +15,5 @@ int main()
     
     return 0;
 }
+
+// Just put the value for i=0 on line 10 if you want to write this program for whole numbers ;)

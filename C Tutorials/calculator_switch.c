@@ -3,7 +3,7 @@ int main(int argc, char const *argv[])
 {
     int a, b, opt, ch;
     printf("This program will do basic arithmetic calculations on two numbers.\n");
-    start:
+first:
     printf("Please enter first number: ");
     scanf("%d", &a);
     printf("Please enter second number: ");
@@ -40,11 +40,11 @@ int main(int argc, char const *argv[])
     }
     printf("Wanna Try again??\nPress '1' for Yes and '2' for No: ");
     scanf("%d", &ch);
-    if (opt == 1)
+    if (ch == 1)
     {
-        goto start;
+        goto first;
     }
-    else if (opt == 2)
+    else if (ch == 2)
     {
         printf("Program terminated!! Have a nice day");
     }

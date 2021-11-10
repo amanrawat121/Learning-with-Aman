@@ -48,5 +48,10 @@ first:
     {
         printf("Program terminated!! Have a nice day");
     }
+    else
+    {
+        printf("Please enter a valid input from the list above.\n");
+    }
+    
     return 0;
 }

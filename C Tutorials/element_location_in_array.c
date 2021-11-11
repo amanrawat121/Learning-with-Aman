@@ -1,4 +1,4 @@
-// this program find location of element in array
+// this program will find location of element in array
 #include <stdio.h>
 #include <conio.h>
 int main()
@@ -16,12 +16,13 @@ int main()
     {
         if (arr[i] == num)
         {
-            printf("This number exist in the array at arr[%d] index.\n", arr[i]-1);
+            printf("This number exist in the array at arr[%d] index.\n", i);
+            break;
         }
-        // else if ((num!==arr[i]) && (i==9))
-        // {
-        //     printf("The number %d doesn't exist in this array. Maybe you didn't entered this when I asked you to enter it. Have a nice day");
-        // }
+        else if ((num!=arr[i]) && (i==9))
+        {
+            printf("The number %d doesn't exist in this array. Maybe you didn't entered this when I asked you to enter it. Have a nice day.", num);
+        }
     }
 
     return 0;

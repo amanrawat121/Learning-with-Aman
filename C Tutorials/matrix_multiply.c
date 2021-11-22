@@ -29,6 +29,7 @@ int main()
         }
     }
     printf("The resultant matrix would be: \n");
+    // calculation phase
     for ( i = 0; i < r; i++)
     {
         for ( j = 0; j < c; j++)
@@ -43,6 +44,7 @@ int main()
         }
         
     }
+    // printing phase
     for ( i = 0; i < r; i++)
     {
         for (j = 0; j < c; j++)

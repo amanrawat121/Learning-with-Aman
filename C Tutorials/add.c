@@ -6,7 +6,7 @@ int main()
     scanf("%d", &a);    
     printf("Enter number b\n");    
     scanf("%d", &b);  
-
+//check request push
     printf ("the sum is %d\n", a+b);  
     return 0;
 }

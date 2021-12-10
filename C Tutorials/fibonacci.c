@@ -3,11 +3,7 @@
 
 int main()
 {
-    int i, num1, num2, num3, elements;
-    printf("Enter first number:\n");
-    scanf("%d", &num1);
-    printf("Enter second number:\n");
-    scanf("%d", &num2);
+    int i, num1=0, num2=1, num3, elements;
 
     printf("Enter the number of elements you want for fibonacci series: ");
     scanf("%d", &elements);

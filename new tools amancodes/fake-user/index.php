@@ -23,6 +23,16 @@ $cell = $shortcode['cell'];
 $dob = $shortcode['dob']['date'];
 $age = $shortcode['dob']['age'];
 $picture = $shortcode['picture']['thumbnail'];
+$nat = $shortcode['nat'];
+$idname = $shortcode['id']['name'];
+$idnum = $shortcode['id']['value'];
+$uuid = $shortcode['login']['uuid'];
+$username = $shortcode['login']['username'];
+$password = $shortcode['login']['password'];
+$salt = $shortcode['login']['salt'];
+$md5 = $shortcode['login']['md5'];
+$sha1 = $shortcode['login']['sha1'];
+$sha256 = $shortcode['login']['sha256'];
 // print_r($data);
 echo "
 <!DOCTYPE html>
@@ -81,6 +91,42 @@ echo "
             <tr>
                <td>Picture</td>
                <td><img src='$picture'</td>
+            </tr>
+            <tr>
+               <td>Nationality</td>
+               <td>".$nat."</td>
+            </tr>
+            <tr>
+               <td>ID Name / Number</td>
+               <td>".$idname." / ".$idnum."</td>
+            </tr>
+            <tr>
+               <td>UUID</td>
+               <td>".$uuid."</td>
+            </tr>
+            <tr>
+               <td>Username</td>
+               <td>".$username."</td>
+            </tr>
+            <tr>
+               <td>Password</td>
+               <td>".$password."</td>
+            </tr>
+            <tr>
+               <td>Salt</td>
+               <td>".$salt."</td>
+            </tr>
+            <tr>
+               <td>MD5</td>
+               <td>".$md5."</td>
+            </tr>
+            <tr>
+               <td>SHA-1</td>
+               <td>".$sha1."</td>
+            </tr>
+            <tr>
+               <td>SHA-256</td>
+               <td>".$sha256."</td>
             </tr>
          </tbody>
       </table>

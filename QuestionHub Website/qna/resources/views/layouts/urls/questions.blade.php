@@ -1,8 +1,8 @@
 @extends('layouts.main')
-@push('title')Home @endpush
+@push('title')New Questions @endpush
 @section('main-content')
 <div class="container">
-    <h1>Use this homepage if user is logged in and show the newest questions added within 1 hour</h1>
+    <h1>Use this page for showing all questions from database as stack overflow do</h1>
     <div class="row">
         <div class="col">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, nesciunt laboriosam quos veniam delectus

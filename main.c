@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 struct node {
   int data;
   struct node *left;
@@ -16,6 +17,15 @@ void display(struct node *head) {
     printf("%d\t", head->data);
     head = head->right;
   }
+  printf("\n");
+}
+void insertend(int val) {
+  struct node *temphead = head;
+  while (temphead->right != NULL) {
+    temphead = temphead->right;
+  }
+  struct node *lastnode = createnode(val);
+  temphead->right = lastnode;
 }
 int main() {
   first = createnode(1);
@@ -26,5 +36,10 @@ int main() {
   head = first;
   display(head);
   insertend(4);
+  display(head);
+  insertend(5);
+  display(head);
+  insertend(6);
+  display(head);
   return 0;
 }
